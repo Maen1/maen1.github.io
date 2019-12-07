@@ -340,3 +340,7 @@ body.preloader-site {
 
 .white
 {color:ghostwhite}
+
+.has-radius{
+    border-radius: 7px;
+}
