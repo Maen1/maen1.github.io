@@ -5,4 +5,9 @@ html {
   @apply font-body antialiased;
 }
 
+#btn-back-to-top {
+  position: fixed;
+  display: none;
+}
+
 @tailwind utilities;
