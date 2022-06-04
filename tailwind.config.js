@@ -16,8 +16,8 @@ module.exports = {
 
     colors: {
       transparent: "transparent",
-      primary: "#1d86a4",
-      secondary: "#e2795b",
+      primary: "#004B87",
+      secondary: "#FFCD00",
       white: "#ffffff",
       black: "#000000",
       yellow: "#dbad33",
@@ -29,8 +29,8 @@ module.exports = {
       "grey-50": "#f4f3f8",
       "grey-60": "#edebf6",
       "grey-70": "#d8d8d8",
-      "hero-gradient-from": "rgba(29, 134, 164, 0.93)",
-      "hero-gradient-to": "rgba(37,169,208, 0.93)",
+      "hero-gradient-from": "rgba(0, 75, 135, 0.93)",
+      "hero-gradient-to": "rgba(0,118,212, 0.96)",
       "blog-gradient-from": "#8f9098",
       "blog-gradient-to": "#222222",
     },
