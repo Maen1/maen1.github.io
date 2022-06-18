@@ -130,44 +130,6 @@
 							></span>
 						</li>
 						
-						<li class="group pl-6">
-							
-							<span
-							@click="triggerNavItem('#services')"
-							class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-							>Services</span
-							>
-							
-							<span
-							class="block h-0.5 w-full bg-transparent group-hover:bg-secondary"
-							></span>
-						</li>
-						
-						<li class="group pl-6">
-							
-							<span
-							@click="triggerNavItem('#portfolio')"
-							class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-							>Portfolio</span
-							>
-							
-							<span
-							class="block h-0.5 w-full bg-transparent group-hover:bg-secondary"
-							></span>
-						</li>
-						
-						<li class="group pl-6">
-							
-							<span
-							@click="triggerNavItem('#clients')"
-							class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-							>Clients</span
-							>
-							
-							<span
-							class="block h-0.5 w-full bg-transparent group-hover:bg-secondary"
-							></span>
-						</li>
 						
 						<li class="group pl-6">
 							
@@ -185,9 +147,9 @@
 						<li class="group pl-6">
 							
 							<span
-							@click="triggerNavItem('#statistics')"
+							@click="triggerNavItem('#education')"
 							class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-							>Statistics</span
+							>Education</span
 							>
 							
 							<span
@@ -198,15 +160,28 @@
 						<li class="group pl-6">
 							
 							<span
-							@click="triggerNavItem('#blog')"
+							@click="triggerNavItem('#services')"
 							class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-							>Blog</span
+							>Services</span
 							>
 							
 							<span
 							class="block h-0.5 w-full bg-transparent group-hover:bg-secondary"
 							></span>
 						</li>
+						
+						
+
+						<!-- 	<span -->
+						<!-- 	@click="triggerNavItem('#blog')" -->
+						<!-- 	class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white" -->
+						<!-- 	>Blog</span -->
+						<!-- 	> -->
+							
+						<!-- 	<span -->
+						<!-- 	class="block h-0.5 w-full bg-transparent group-hover:bg-secondary" -->
+						<!-- 	></span> -->
+						<!-- </li> -->
 						
 						<li class="group pl-6">
 							
@@ -257,35 +232,7 @@
 			
 		</li>
 		
-		<li class="py-2">
-			
-			<span
-			@click="triggerMobileNavItem('#services')"
-			class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-			>Services</span
-			>
-			
-		</li>
 		
-		<li class="py-2">
-			
-			<span
-			@click="triggerMobileNavItem('#portfolio')"
-			class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-			>Portfolio</span
-			>
-			
-		</li>
-		
-		<li class="py-2">
-			
-			<span
-			@click="triggerMobileNavItem('#clients')"
-			class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-			>Clients</span
-			>
-			
-		</li>
 		
 		<li class="py-2">
 			
@@ -300,22 +247,31 @@
 		<li class="py-2">
 			
 			<span
-			@click="triggerMobileNavItem('#statistics')"
+					@click="triggerMobileNavItem('#education')"
 			class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-			>Statistics</span
+			>Education</span
+			>
+			
+		</li>
+		<li class="py-2">
+			
+			<span
+			@click="triggerMobileNavItem('#services')"
+			class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
+			>Services</span
 			>
 			
 		</li>
 		
-		<li class="py-2">
+		<!-- <li class="py-2"> -->
 			
-			<span
-			@click="triggerMobileNavItem('#blog')"
-			class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white"
-			>Blog</span
-			>
+		<!-- 	<span -->
+		<!-- 	@click="triggerMobileNavItem('#blog')" -->
+		<!-- 	class="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white" -->
+		<!-- 	>Blog</span -->
+		<!-- 	> -->
 			
-		</li>
+		<!-- </li> -->
 		
 		<li class="py-2">
 			
@@ -828,7 +784,7 @@ id="statistics">
 			>
 			<div>
 				<img
-				src="/assets/img/icon-project.svg"
+						src="/assets/img/machine-learning.svg"
 				class="mx-auto h-12 w-auto md:h-20"
 				alt="icon project"
 				/>
@@ -857,8 +813,8 @@ class="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:fl
 >
 <div>
 	<img
-	src="/assets/img/icon-happy.svg"
-	class="mx-auto h-12 w-auto md:h-20"
+			src="/assets/img/icon-development-black.svg"
+			class="mx-auto h-12 w-auto md:h-20"
 	alt="icon happy clients"
 	/>
 </div>
@@ -914,7 +870,7 @@ class="mt-6 flex flex-col items-center justify-center text-center md:mt-10 md:fl
 </div>
 
 
-<div class="container py-16 md:py-20" id="work">
+<div class="container py-16 md:py-20" id="education">
 	<h2
 	class="text-center font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl" >
 	My Education
