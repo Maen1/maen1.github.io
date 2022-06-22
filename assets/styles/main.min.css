@@ -1470,6 +1470,10 @@ html {
   border-radius: 0.375rem;
 }
 
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
 .border-8 {
   border-width: 8px;
 }
