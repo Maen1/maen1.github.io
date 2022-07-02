@@ -1669,9 +1669,9 @@ html {
   padding-right: 2rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .py-16 {
@@ -1709,6 +1709,11 @@ html {
   padding-bottom: 0.25rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .px-0\.5 {
   padding-left: 0.125rem;
   padding-right: 0.125rem;
@@ -1717,11 +1722,6 @@ html {
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
-}
-
-.py-14 {
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
 }
 
 .pt-0\.5 {
@@ -1934,6 +1934,11 @@ html {
 .text-grey-30 {
   --tw-text-opacity: 1;
   color: rgb(145 144 145 / var(--tw-text-opacity));
+}
+
+.text-grey-50 {
+  --tw-text-opacity: 1;
+  color: rgb(244 243 248 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -2550,6 +2555,11 @@ html {
     padding-bottom: 5rem;
   }
 
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .lg\:pt-64 {
     padding-top: 16rem;
   }
@@ -2572,6 +2582,14 @@ html {
 
   .lg\:pt-6 {
     padding-top: 1.5rem;
+  }
+
+  .lg\:pl-4 {
+    padding-left: 1rem;
+  }
+
+  .lg\:pr-8 {
+    padding-right: 2rem;
   }
 
   .lg\:text-left {
