@@ -1501,6 +1501,15 @@ html {
   overflow: hidden;
 }
 
+.break-normal {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.break-all {
+  word-break: break-all;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -1869,6 +1878,10 @@ html {
 
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .font-header {
